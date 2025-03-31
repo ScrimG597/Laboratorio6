@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Laboratorio 6 </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="index.html">Index</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link text-white" href="pagina1.html">Pagina 1</a>
+        <a class="nav-link text-black" href="#">Pagina 2</a>
+        <a class="nav-link text-white" href="pagina3.hmtl">Pagina 3</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <div class="card" style="width: 18rem;">
+    <img src="cena.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">John Cena</h5>
+      <p class="card-text">
+        <strong>John Cena</strong> es un conocido luchador profesional, actor, presentador de televisión y personalidad de los medios de comunicación estadounidense. Nació el <strong>23 de abril de 1977</strong> en <strong>West Newbury, Massachusetts, Estados Unidos</strong>.
+      </p>
+      <p>
+        Cena es muy famoso por su carrera en la <strong>World Wrestling Entertainment (WWE)</strong>, donde se convirtió en uno de los luchadores más populares y exitosos de todos los tiempos.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="accordion" id="accordionExample">
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       <strong>Campeonatos individuales</strong> 
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Campeonatos Individuales de John Cena.</strong> 
+    <ul>
+        <li><strong>Campeonato Mundial Peso Pesado (World Heavyweight Championship)</strong> – 3 veces</li>
+        <li><strong>Campeonato de la WWE (WWE Championship)</strong> – 13 veces</li>
+        <li><strong>Campeonato de los Estados Unidos (United States Championship)</strong> – 5 veces</li>
+    </ul>
+      </div>
+    </div>
+  </div>
+<div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       <strong>Carrera como actor</strong>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <ul>
+        <li><strong>The Marine (2006)</strong> – Cena interpretó a un marine llamado John Triton, quien debe rescatar a su esposa secuestrada. Esta película fue su debut en el cine y le permitió ganarse la atención del público.</li>
+        <li><strong>12 Rounds (2009)</strong> – Cena interpretó a un oficial de policía en esta película de acción dirigida por Renny Harlin. Aunque la película no fue un gran éxito de crítica, Cena demostró su capacidad para los papeles de acción.</li>
+        <li><strong>Trainwreck (2015)</strong> – Cena desempeñó un papel cómico como el novio de Amy Schumer en esta exitosa comedia dirigida por Judd Apatow. Su actuación fue elogiada por su timing cómico, lo que abrió nuevas oportunidades en Hollywood.</li>
+        <li><strong>Bumblebee (2018)</strong> – Cena participó en esta película de la franquicia de Transformers, donde interpretó a un oficial del ejército. La película recibió buenas críticas y fue un éxito comercial.</li>
+        <li><strong>Fast & Furious 9 (2021)</strong> – Cena se unió al elenco de la exitosa franquicia "Fast & Furious", interpretando a Jakob Toretto, el hermano perdido de Dominic Toretto (Vin Diesel). Su participación fue un gran atractivo para los fanáticos de la saga.</li>
+        <li><strong>The Suicide Squad (2021)</strong> – Cena interpretó a Peacemaker, un antihéroe y uno de los personajes más destacados de la película dirigida por James Gunn. Su desempeño fue muy bien recibido por los críticos y la audiencia.</li>
+    </ul>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
